@@ -1,9 +1,32 @@
 <html>
-<body></body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<body>
+
+</body>
+
 <head>
 
-<a href="Table3.html">Table 3</a> </br>
-<a href="Table4.html">Table 4</a> </br>
+<h1>Equivalent Mutants in Configurable Systems: An Empirical Study</h1>
+<div align="center">
+<p>Luiz Carvalho, Marcio Augusto Guimarães, Márcio Ribeiro<br> UFAL, Maceió, Brazil <br> {luiz,masg,marcio}@ic.ufal.br</p>
+<p>Leonardo Fernandes <br>UFPE, Recife, Brazil <br> lfmo@cin.ufpe.br </p>
+<p>Mustafa Al-Hajjaji <br> University of Magdeburg, Magdeburg, Germany <br> pure-systems GmbH, Magdeburg, Germany <br> mustafa.alhajjaji@pure-sytems.com</p>
+<p>Rohit Gheyi <br> UFCG, Campina Grande, Brazil <br> rohit@dsc.ufcg.edu.br</p>
+<p>Thomas Thüm <br> TU Braunschweig, Magdeburg, Germany <br> t.thuem@tu-braunschweig.de</p>
+</div>
+
+<div align="justify">
+<h2>Abstract</h2>
+<p> Mutation testing is a program-transformation technique that evaluates the quality of test cases by assessing their capability to detect injected artificial faults. However, the costs of using mutation testing are usually high, hindering its use in industry. Previous research has reported that roughly one-third of the mutants generated are equivalent. In configurable systems, a set of mutation operators that focus on preprocessor directives (e.g., <i>#ifdef</i>) has been proposed. However, there is a lack of existing studies that investigate the equivalent mutants that may be yielded by these operators. To perform this investigation, we provide a tool that implements the aforementioned mutation operators. Then, we conduct an empirical study with 20 C files of industrial-scale systems. In particular, we provide examples of equivalent mutants and detailed information, such as which mutation operators generate these mutants and how often they occur. Our preliminary results show that nearly 40% of the generated mutants are equivalent (partially and totally). Hence, testing costs can be drastically reduced if the community comes up with efficient techniques to avoid these equivalent mutants. </p>
+</div>
+
+<h2>Artifacts</h2>
+
+<h3>Tables 3 e 4</h3>
+<a href="Table3.html">Table 3: Number of partially and totally equivalents mutants for configurable systems.</a> </br>
+<a href="Table4.html">Table 4: Number of partially and totally equivalents mutants per mutation operator.</a> </br> 
+</br><h3>Number of partially and totally equivalents mutants per file</h3>
+
 <a href="bio_ssl.html">bio_ssl</a> </br>
 <a href="buffer.html">buffer</a> </br>
 <a href="chunk.html">chunk</a> </br>
@@ -24,6 +47,9 @@
 <a href="s3_enc.html">s3_enc</a> </br>
 <a href="ssl_cert.html">ssl_cert</a> </br>
 <a href="ssl_sess.html">ssl_sess</a> </br>  
+
+<h3>Projects and mutants </h3>
+<a href="https://github.com/lzmths/projectsAndMutants">Projects and mutants</a> </br>  
 
 </head>
 
